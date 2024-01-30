@@ -36,7 +36,7 @@ public class Program {
 		System.out.printf("Pagamento basico: %.2f\n",cr.getInvoice().getBasicPayment());
 		System.out.printf("Imposto: %.2f\n",cr.getInvoice().getTax());
 		System.out.printf("Pagamento total %.2f\n",cr.getInvoice().getTotalPayment());
-		
+		System.out.println();
 		
 		sc.close();
 	}
